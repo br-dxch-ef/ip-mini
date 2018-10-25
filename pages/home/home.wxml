@@ -1,0 +1,9 @@
+<!--home.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view>专利搜索：
+    <input type="text" name="IP_id" placeholder="请输入专利号" adjust-position="false" />
+  </view>
+  <view>
+    <button form-type="submit" type="primary" size="mini">确定</button>
+  </view>
+</form>

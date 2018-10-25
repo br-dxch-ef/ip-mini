@@ -1,0 +1,11 @@
+/*input {
+  border-bottom: 1px solid #aaa;
+}
+
+view {
+  margin: 50rpx 100rpx;
+}*/
+
+.scroll-view_H {
+  height: 100rpx;
+}

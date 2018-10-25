@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'Hello,\n\nWelcome to IPNET!\n\n',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -49,6 +49,13 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+  jumpToHome: function() {
+    wx.redirectTo({
+      //url: '../home/home'
+      //url: '../test/test'
+      url: '../patent/patent'
     })
   }
 })

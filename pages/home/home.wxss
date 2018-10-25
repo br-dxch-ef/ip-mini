@@ -1,0 +1,7 @@
+input {
+  border-bottom: 1px solid #aaa;
+}
+
+view {
+  margin: 50rpx 100rpx;
+}
